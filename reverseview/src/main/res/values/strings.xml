@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReverseView</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_layout_reverse">LayoutReverseActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_surface_reverse">SurfaceReverseActivity</string>
+</resources>
