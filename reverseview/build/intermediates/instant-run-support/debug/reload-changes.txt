@@ -1,4 +1,2 @@
-CHANGED,/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/obo/reverseview/ChooseAdapter$override.class
-CHANGED,/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/obo/reverseview/ItemViewHolder$override.class
-CHANGED,/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/obo/reverseview/MainActivity$override.class
+CHANGED,/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/obo/reverseview/views/scale/ScaleActivity$override.class
 CHANGED,/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
