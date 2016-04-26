@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
+        <ListView
+            android:id="@+id/list_choose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
         <Button
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="动画翻转"
-            android:id="@+id/button"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="152dp"
             android:onClick="onClick"
-            android:layout_marginTop="152dp" />
+            android:text="动画翻转" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="重写翻转"
             android:id="@+id/button2"
-            android:onClick="onClick"
-            android:layout_below="@+id/button"
-            android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button" />
-
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Surface翻转"
-            android:id="@+id/button3"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/button"
             android:onClick="onClick"
+            android:text="重写翻转" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/button2"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:onClick="onClick"
+            android:text="Surface翻转" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
-<!-- From: file:/Users/apple/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/src/main/res/layout/activity_main2.xml -->

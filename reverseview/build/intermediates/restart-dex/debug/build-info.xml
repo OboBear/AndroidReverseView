@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="18"
+    density="xxhdpi"
+    format="7"
+    timestamp="162069479762219" >
+
+    <task
+        name="javac"
+        duration="167" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="62" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/outputs/apk/reverseview-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="162069479762219" >
+        <artifact
+            location="/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/outputs/apk/reverseview-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

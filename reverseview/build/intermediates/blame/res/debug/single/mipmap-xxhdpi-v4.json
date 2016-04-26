@@ -2,5 +2,9 @@
     {
         "merged": "/Users/apple/Desktop/Workspace/android/demos/OboBaseAndroidProject/reverseview/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
         "source": "/Users/apple/Desktop/Workspace/android/demos/OboBaseAndroidProject/reverseview/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

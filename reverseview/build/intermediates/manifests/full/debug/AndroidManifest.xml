@@ -27,17 +27,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.obo.reverseview.layout.LayoutReverseActivity"
+            android:name="com.obo.reverseview.views.layout.LayoutReverseActivity"
             android:label="@string/title_activity_layout_reverse"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.obo.reverseview.animate.AnimateReverseActivity"
+            android:name="com.obo.reverseview.views.animate.AnimateReverseActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.obo.reverseview.surfaceView.SurfaceReverseActivity"
+            android:name="com.obo.reverseview.views.surfaceView.SurfaceReverseActivity"
             android:label="@string/title_activity_surface_reverse"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.obo.reverseview.views.scale.ScaleActivity" />
     </application>
 
 </manifest>

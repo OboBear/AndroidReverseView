@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/src/main/res/menu/menu_main.xml"
+    },
+    {
         "merged": "/Users/apple/Desktop/Workspace/android/demos/OboBaseAndroidProject/reverseview/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/Users/apple/Desktop/Workspace/android/demos/OboBaseAndroidProject/reverseview/src/main/res/menu/menu_main.xml"
     }
