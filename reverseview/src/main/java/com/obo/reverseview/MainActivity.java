@@ -21,7 +21,7 @@ import com.obo.reverseview.views.surfaceView.SurfaceReverseActivity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener , AdapterView.OnItemClickListener{
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     ListView mChooseList;
 
@@ -46,27 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ScaleActivity.class,
             SurfaceReverseActivity.class
     };
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.button: {
-                Intent intent = new Intent(this, AnimateReverseActivity.class);
-                startActivity(intent);
-            }
-            break;
-            case R.id.button2: {
-                Intent intent = new Intent(this, LayoutReverseActivity.class);
-                startActivity(intent);
-            }
-            break;
-
-            case R.id.button3: {
-                Intent intent = new Intent(this, SurfaceReverseActivity.class);
-                startActivity(intent);
-            }
-        }
-    }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

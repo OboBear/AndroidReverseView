@@ -26,4 +26,5 @@ public class LayoutReverseActivity extends AppCompatActivity implements View.OnC
             break;
         }
     }
+
 }

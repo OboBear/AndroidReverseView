@@ -24,7 +24,6 @@
             android:text="翻转"
             android:id="@+id/reverse_button"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
             android:onClick="onClick"
             android:layout_marginBottom="194dp" />
 

@@ -3,6 +3,8 @@ package com.obo.reverseview.views.layout;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
+import android.util.Log;
+import android.view.MotionEvent;
 import android.widget.RelativeLayout;
 
 /**
@@ -21,5 +23,13 @@ public class ReverseLayout extends RelativeLayout {
         if (isReverse)
             canvas.scale(-1, 1, getWidth() / 2, getHeight() / 2);
         super.dispatchDraw(canvas);
+    }
+
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+        if (isReverse) {
+            ev.setLocation(getWidth() - ev.getX(), ev.getY());
+        }
+        return super.onInterceptTouchEvent(ev);
     }
 }

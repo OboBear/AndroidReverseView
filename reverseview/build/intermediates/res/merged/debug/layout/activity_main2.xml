@@ -6,46 +6,11 @@
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
-    <RelativeLayout
+    <ListView
+        android:id="@+id/list_choose"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <ListView
-            android:id="@+id/list_choose"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </ListView>
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="152dp"
-            android:onClick="onClick"
-            android:text="动画翻转" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button"
-            android:layout_below="@+id/button"
-            android:onClick="onClick"
-            android:text="重写翻转" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/button2"
-            android:layout_centerHorizontal="true"
-            android:onClick="onClick"
-            android:text="Surface翻转" />
-    </RelativeLayout>
+    </ListView>
 
 </android.support.design.widget.CoordinatorLayout>
