@@ -11,3 +11,9 @@ android界面镜像翻转（水平翻转）
 3.直接对layout设置scaleY(-1)，进行翻转
 
 4.SurfaceView翻转
+
+效果：
+翻转前
+![image](https://raw.githubusercontent.com/OboBear/AndroidReverseView/master/images/before.png)
+翻转后
+![image](https://raw.githubusercontent.com/OboBear/AndroidReverseView/master/images/after.png)
