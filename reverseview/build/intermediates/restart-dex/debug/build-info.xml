@@ -4,29 +4,21 @@
     api-level="18"
     density="xxhdpi"
     format="7"
-    timestamp="164052377108283" >
+    timestamp="60660100577388" >
 
     <task
         name="javac"
-        duration="263" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
-    <artifact
-        location="/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/outputs/apk/reverseview-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="164052377108283" >
-        <artifact
-            location="/Users/obo/Desktop/Workspace/android/demos/ReverseView/reverseview/reverseview/build/outputs/apk/reverseview-debug.apk"
-            type="MAIN" />
-    </build>
+    <build timestamp="60660100577388" />
 
 </instant-run>
